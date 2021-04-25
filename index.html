@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForgetMeNot Bot</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+    <link href="main.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <main>
+        <div class="name">
+            <h1>ForgetMeNot<span class="descriminator">#5611</span></h1>
+            <h2>A bot never forgets</h2>
+        </div>
+        
+        <img src="./robot.png" alt="Robot Emoji" class="robot" />
+
+        <a class="add" href="https://discord.com/oauth2/authorize?client_id=832272874331963432&scope=bot">Add to Discord</a>
+    </main>
+
+    <aside>
+        <h3>Commands</h3>
+        <ul>
+            <li><code>!forgetmenot &lt;emoji/emote&gt;</code> Sets the reaction emoji that triggers saving quotes</li>
+            <li><code>!forgetmenot &lt;local/global&gt;</code> Sets quotes to be local to channels, or globally available in a server</li>
+            <li><code>!quote [person/*] [search term]</code> Get a random quote based on optional criteria</li>
+            <li><code>!remember</code> Remembers the replied-to message, or the most recent message in the channel</li>
+        </ul>
+
+        <h3>Permissions</h3>
+        <ul>
+            <li>Anyone with "Manage Messages" permission can add quotes</li>
+            <li>Anyone with "Adminitrator" can run <code>!forgetmenot</code> commands</li>
+            <li>Anyone can run the quote view command</li>
+        </ul>
+    </aside>
+</body>
+</html>
